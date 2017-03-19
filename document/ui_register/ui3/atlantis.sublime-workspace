@@ -1,0 +1,481 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 104.0,
+		"last_filter": "instal",
+		"selected_items":
+		[
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"align",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: up",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 528.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/myprj/atlantis/平台页面"
+	],
+	"file_history":
+	[
+		"/D/AndroidStudioProjects/Demo02/app/build/intermediates/manifest/androidTest/debug/AndroidManifest.xml",
+		"/D/project/osc/MultimediaDesktop/scripts/Server-Deploy.sh",
+		"/C/ProgramData/MySQL/MySQL Server 5.7/my.ini",
+		"/C/Users/baohy/.m2/settings.xml",
+		"/D/project/MyIDEA/jeecg-dfw/pom.xml",
+		"/D/project/MyIDEA/jeecg-dfw/.idea/artifacts/jeecg_dfw_war_exploded.xml",
+		"/D/project/MyIDEA/jeecg-dfw/.idea/artifacts/jeecg_dwf_war.xml",
+		"/D/project/MyIDEA/jeecg-dfw/.idea/misc.xml",
+		"/D/project/MyIDEA/jeecg-dfw/.idea/modules.xml",
+		"/D/project/MyIDEA/jeecg-dfw/.idea/.name",
+		"/D/project/MyIDEA/jeecg-dfw/.idea/vcs.xml",
+		"/D/project/MyIDEA/jeecg-dfw/.idea/workspace.xml",
+		"/D/project/MyIDEA/jeecg-dfw/jeecg.iml",
+		"/D/app4dev/repository/maven/org/jeecgframework/jackson/1.84/m2e-lastUpdated.properties",
+		"/D/app4dev/repository/maven/xmlunit/xmlunit/1.2/xmlunit-1.2.pom.lastUpdated",
+		"/D/app4dev/apache-maven-3.3.9/conf/settings.xml",
+		"/D/app4dev/IntelliJIDEA2016.3/bin/idea.exe.vmoptions",
+		"/D/app4dev/IntelliJIDEA2016.3/bin/idea64.exe.vmoptions",
+		"/D/app4dev/data-integration/launcher/launcher.properties",
+		"/D/app4dev/data-integration/spoon.command",
+		"/C/Users/baohy/AppData/Local/Google/Chrome/User Data/Default/Preferences",
+		"/C/Users/baohy/AppData/Local/Google/Chrome/User Data/Default/Top Sites",
+		"/D/baohy/Downloads/windows用批处理 (3)/windows用批处理/hosts",
+		"/D/baohy/Downloads/EasyWatermark_gr/EasyWatermark 7.03/Setup.ini",
+		"/D/project/MyIDEA/jepf/WebRoot/JE/data/staticData/func/JE_CORE_DICTIONARY.json",
+		"/D/project/MyIDEA/jeecg-v36/src/main/java/org/jeecgframework/core/timer/DataBaseCronTriggerBean.java",
+		"/D/project/MyIDEA/jeecg-v36/target/classes/spring-mvc-context.xml",
+		"/D/project/MyIDEA/jeecg-v36/src/main/java/org/jeecgframework/web/cgform/entity/config/CgFormFieldEntity.java",
+		"/D/project/MyIDEA/jeecg-v36/src/main/java/org/jeecgframework/core/common/model/json/ProjectInfo.java",
+		"/D/project/MyIDEA/jeecg-v36/src/main/java/org/jeecgframework/web/system/dao/JeecgDictDao.java",
+		"/D/project/MyIDEA/jeecg-v36/src/main/java/org/jeecgframework/web/cgreport/dao/core/impl/CgReportDaoImpl.java",
+		"/D/project/MyIDEA/jeecg-v36/src/main/java/org/jeecgframework/web/system/dao/repair/RepairDao.java",
+		"/D/project/MyIDEA/jeecg-v36/src/main/java/org/jeecgframework/web/demo/dao/test/JeecgProcedureDao.java",
+		"/D/project/MyIDEA/jeecg-v36/src/main/java/org/jeecgframework/core/util/DBTypeUtil.java",
+		"/D/project/MyIDEA/jeecg-v36/src/main/java/org/jeecgframework/core/interceptors/DateConvertEditor.java",
+		"/D/project/MyIDEA/jeecg-v36/src/main/java/org/jeecgframework/tag/core/easyui/DataGridTag.java",
+		"/D/project/MyIDEA/jeecg-v36/src/main/java/org/jeecgframework/core/util/JSONHelper.java",
+		"/D/project/MyIDEA/jeecg-v36/src/main/java/org/jeecgframework/core/util/FormUtil.java",
+		"/D/project/MyIDEA/jeecg-v36/src/main/java/org/jeecgframework/web/demo/dao/test/JeecgMinidaoDao.java",
+		"/D/project/MyIDEA/jeecg-v36/src/main/java/org/jeecgframework/core/common/dao/jdbc/JdbcDao.java",
+		"/D/project/MyIDEA/jeecg-v36/src/main/java/org/jeecgframework/web/cgform/controller/template/CgformTemplateController.java",
+		"/D/project/MyIDEA/jeecg-v36/src/main/java/org/jeecgframework/core/util/DynamicDBUtil.java",
+		"/D/project/MyIDEA/jeecg-v36/src/main/java/org/jeecgframework/tag/core/easyui/DictSelectTag.java",
+		"/D/project/MyIDEA/jeecg-v36/src/main/java/org/jeecgframework/tag/core/easyui/TagUtil.java",
+		"/D/project/MyIDEA/jeecg-v36/src/main/java/org/jeecgframework/web/demo/controller/test/JeecgDemoController.java",
+		"/D/project/MyIDEA/jeecg-v36/src/main/java/org/jeecgframework/web/cgform/service/impl/config/util/ExtendJsonConvert.java",
+		"/D/project/MyIDEA/jeecg-v36/src/main/java/org/jeecgframework/web/cgform/controller/cgformftl/CgformFtlController.java",
+		"/D/project/MyIDEA/jeecg-v36/src/main/java/org/jeecgframework/web/cgform/controller/autoform/AutoFormController.java",
+		"/D/app4dev/repository/maven/org/p3framework/jeecg-p3-core/1.0-SNAPSHOT/_maven.repositories",
+		"/D/project/MyIDEA/jeecg-v36/src/main/java/org/jeecgframework/web/cgform/service/impl/config/util/DbTableProcess.java",
+		"/D/project/MyIDEA/jeecg-v36/src/main/java/org/jeecgframework/core/timer/DynamicTask.java",
+		"/D/project/MyIDEA/jeecg-v36/target/jeecg/WEB-INF/web.xml",
+		"/D/project/MyIDEA/jeecg-v36/src/main/java/org/jeecgframework/core/common/hibernate/qbc/AliasToBean.java",
+		"/D/baohy/Desktop/资源共享文件.txt",
+		"/C/Users/baohy/.IntelliJIdea15/system/tomcat/Unnamed_DZZ/conf/server.xml",
+		"/D/baohy/Desktop/甘肃联通.zip",
+		"/C/Users/baohy/AppData/Roaming/Sublime Text 3/Packages/GoTools/GoTools.sublime-settings",
+		"/D/app4dev/mysql-5.7.10-win32/my.ini",
+		"/D/app4dev/apache-maven-3.3.3/conf/settings.xml",
+		"/D/app4dev/sublime-text-context-menu-windows/sublime3_add_to_context_menu_windows_7.reg",
+		"/D/Downloads/jquery-easyui-1.4.4/src/jquery.combobox.js",
+		"/D/Downloads/jquery-easyui-1.4.4/jquery.easyui.min.js",
+		"/D/Downloads/jquery-1.11.3.min.map",
+		"/D/Downloads/jquery-1.11.3.min.js",
+		"/D/Downloads/jquery-easyui-1.4.4/jquery.min.js",
+		"/D/Downloads/jquery-easyui-1.4.4/plugins/jquery.form.js",
+		"/C/Users/Terry/AppData/Roaming/Sublime Text 3/Packages/JsFormat/JsFormat.sublime-settings",
+		"/D/works/IdeaProjects/AY/WebRoot/core/js/sys.js",
+		"/D/works/IdeaProjects/AY/WebRoot/core/js/smartclient.js",
+		"/C/Users/Terry/AppData/Roaming/Sublime Text 3/Packages/Alignment/Default (Windows).sublime-keymap",
+		"/C/Users/Terry/AppData/Roaming/Sublime Text 3/Packages/Alignment/Base File.sublime-settings",
+		"/D/app4dev/IntelliJIDEA15/bin/idea.exe.vmoptions",
+		"/D/Downloads/62c354f315c456b9710b1331a4f0d7eb.torrent",
+		"/D/app4dev/XshellXftpPortable/XshellPortable.ini",
+		"/D/app4dev/mysql-5.6.26-win32/my.ini",
+		"/C/Users/Terry/.IntelliJIdea14/system/tomcat/Unnamed_DZZ/conf/server.xml",
+		"/D/app4dev/tomcat/apache-tomcat-7.0.56/conf/server.xml",
+		"/D/app4dev/Android/Android Studio/bin/studio.exe.vmoptions",
+		"/C/Users/Terry/AppData/Roaming/Sublime Text 3/Packages/User/AutoBackups (Windows).sublime-settings",
+		"/C/Program Files/Duckling/Config/Terry.ini",
+		"/C/Users/Terry/AppData/Roaming/Sublime Text 3/Packages/ConvertToUTF8/ConvertToUTF8.sublime-settings",
+		"/C/Users/Terry/AppData/Roaming/Sublime Text 3/Packages/User/ConvertToUTF8.sublime-settings",
+		"/C/Users/Terry/AppData/Roaming/Sublime Text 3/Packages/AutoBackups/AutoBackups (Windows).sublime-settings",
+		"/C/Users/Terry/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"D:\\project\\MyIDEA\\jeecg-v3.5.2\\src"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"fj1",
+			"fj",
+			"default_password_lifetime",
+			"primary",
+			"content",
+			"primaryMenu",
+			"utf-8",
+			"getStyleList",
+			"dwf",
+			"zipFile",
+			"extendAttribute",
+			"getCheckbox",
+			"String check = (",
+			"extendattribute",
+			"jodd",
+			"json",
+			"poi",
+			"antlr",
+			", ",
+			"sourceMappingURL",
+			"([^\\s]*)\\s*",
+			"([^\\s]*)",
+			"([^\\s]*)\\s+",
+			"(.*)\\s+",
+			"\\s+=.*;",
+			"^\\s+private boolean\\s+",
+			"^\\s+",
+			"'",
+			"CREATE TABLE.*$",
+			"\\(([^\\)]*)\\)",
+			"K.*\\(`.*\\)",
+			"PRIMARY KEY \\(`.*`\\)",
+			"\\(\\d+\\)",
+			"HWPostil1",
+			"show"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"dfw",
+			",\\n",
+			"<property name=\"$1\" value=\"false\"/>\\n",
+			"<property name=\"$1\" value=\"false\"/>",
+			"\" value=\"false\"/>",
+			"<property name=\"",
+			"\"",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "atlantis.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"streamutils",
+				"src\\main\\java\\org\\jeecgframework\\core\\util\\StreamUtils.java"
+			],
+			[
+				"aliastobean",
+				"src\\main\\java\\org\\jeecgframework\\core\\common\\hibernate\\qbc\\AliasToBean.java"
+			],
+			[
+				"shortcut",
+				"target\\jeecg\\webpage\\main\\shortcut_main.jsp"
+			],
+			[
+				"web.xml",
+				"target\\jeecg\\WEB-INF\\web.xml"
+			],
+			[
+				"left",
+				"src\\main\\webapp\\plug-in\\accordion\\js\\left_shortcut_menu.js"
+			],
+			[
+				"repairdao",
+				"src\\main\\java\\org\\jeecgframework\\web\\system\\dao\\repair\\RepairDao.java"
+			],
+			[
+				"jeecgminidaodao",
+				"src\\main\\java\\org\\jeecgframework\\web\\demo\\dao\\test\\JeecgMinidaoDao.java"
+			],
+			[
+				"cgreportdao",
+				"src\\main\\java\\org\\jeecgframework\\web\\cgreport\\dao\\core\\CgReportDao.java"
+			],
+			[
+				"cgformuploaddao",
+				"src\\main\\java\\org\\jeecgframework\\web\\cgform\\dao\\upload\\CgFormUploadDao.java"
+			],
+			[
+				"jeecgdictdao",
+				"src\\main\\java\\org\\jeecgframework\\web\\system\\dao\\JeecgDictDao.java"
+			],
+			[
+				"cgformfielddao",
+				"src\\main\\java\\org\\jeecgframework\\web\\cgform\\dao\\config\\CgFormFieldDao.java"
+			],
+			[
+				"tsbaseuser",
+				"src\\main\\java\\org\\jeecgframework\\web\\system\\pojo\\base\\TSBaseUser.java"
+			],
+			[
+				"databaseschedulerfactorybean",
+				"src\\main\\java\\org\\jeecgframework\\core\\timer\\DataBaseSchedulerFactoryBean.java"
+			],
+			[
+				"genericbasecommondao",
+				"src\\main\\java\\org\\jeecgframework\\core\\common\\dao\\impl\\GenericBaseCommonDao.java"
+			],
+			[
+				"dynamictask",
+				"src\\main\\java\\org\\jeecgframework\\core\\timer\\DynamicTask.java"
+			],
+			[
+				"timetaskcon",
+				"src\\main\\java\\org\\jeecgframework\\web\\system\\controller\\core\\TimeTaskController.java"
+			],
+			[
+				"resourceutil",
+				"src\\main\\java\\org\\jeecgframework\\core\\util\\ResourceUtil.java"
+			],
+			[
+				"jdbcdao",
+				"src\\main\\java\\org\\jeecgframework\\core\\common\\dao\\jdbc\\JdbcDao.java"
+			],
+			[
+				"dateconverteditor",
+				"src\\main\\java\\org\\jeecgframework\\core\\interceptors\\DateConvertEditor.java"
+			],
+			[
+				"dbtypeutil",
+				"src\\main\\java\\org\\jeecgframework\\core\\util\\DBTypeUtil.java"
+			],
+			[
+				"jeecgproceduredao",
+				"src\\main\\java\\org\\jeecgframework\\web\\demo\\dao\\test\\JeecgProcedureDao.java"
+			],
+			[
+				"cgformtemplatecon",
+				"src\\main\\java\\org\\jeecgframework\\web\\cgform\\controller\\template\\CgformTemplateController.java"
+			],
+			[
+				"autoformcon",
+				"src\\main\\java\\org\\jeecgframework\\web\\cgform\\controller\\autoform\\AutoFormController.java"
+			],
+			[
+				"cgformftlcontroll",
+				"src\\main\\java\\org\\jeecgframework\\web\\cgform\\controller\\cgformftl\\CgformFtlController.java"
+			],
+			[
+				"extend",
+				"src\\main\\java\\org\\jeecgframework\\web\\cgform\\service\\impl\\config\\util\\ExtendJsonConvert.java"
+			],
+			[
+				"jeecgdemocon",
+				"src\\main\\java\\org\\jeecgframework\\web\\demo\\controller\\test\\JeecgDemoController.java"
+			],
+			[
+				"tagutil",
+				"src\\main\\java\\org\\jeecgframework\\tag\\core\\easyui\\TagUtil.java"
+			],
+			[
+				"dictselect.jav",
+				"src\\main\\java\\org\\jeecgframework\\tag\\core\\easyui\\DictSelectTag.java"
+			],
+			[
+				"dynamicdbu",
+				"src\\main\\java\\org\\jeecgframework\\core\\util\\DynamicDBUtil.java"
+			],
+			[
+				"formutil",
+				"src\\main\\java\\org\\jeecgframework\\core\\util\\FormUtil.java"
+			],
+			[
+				"jsonhelper",
+				"src\\main\\java\\org\\jeecgframework\\core\\util\\JSONHelper.java"
+			],
+			[
+				"datagridtag.ja",
+				"src\\main\\java\\org\\jeecgframework\\tag\\core\\easyui\\DataGridTag.java"
+			],
+			[
+				"jeecgdao",
+				"src\\main\\java\\org\\jeecgframework\\web\\system\\dao\\JeecgDictDao.java"
+			],
+			[
+				"queryparamu",
+				"src\\main\\java\\org\\jeecgframework\\web\\cgform\\util\\QueryParamUtil.java"
+			],
+			[
+				"projectinfo",
+				"src\\main\\java\\org\\jeecgframework\\core\\common\\model\\json\\ProjectInfo.java"
+			],
+			[
+				"cgformfieldentity",
+				"src\\main\\java\\org\\jeecgframework\\web\\cgform\\entity\\config\\CgFormFieldEntity.java"
+			],
+			[
+				"dbtableproce",
+				"src\\main\\java\\org\\jeecgframework\\web\\cgform\\service\\impl\\config\\util\\DbTableProcess.java"
+			],
+			[
+				"spring-mvc",
+				"target\\classes\\spring-mvc-context.xml"
+			],
+			[
+				"databasecrontriggerbean",
+				"src\\main\\java\\org\\jeecgframework\\core\\timer\\DataBaseCronTriggerBean.java"
+			],
+			[
+				"head.",
+				"WebRoot\\core\\js\\head.min.js"
+			],
+			[
+				"operate.jsp",
+				"WebRoot\\core\\funcs\\workflow\\flowrun\\list\\inputform\\operate.jsp"
+			],
+			[
+				"main.jsp",
+				"WebRoot\\core\\funcs\\workflow\\flowrun\\list\\inputform\\main.jsp"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 274.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
