@@ -51,7 +51,7 @@
   <li id="catalog"><a class="parent"><i class="fa fa-tags fa-fw"></i> <span>融资管理</span></a>
     <ul>
       <li><a href="c_06.html">融资申请浏览</a></li>
-　　　　　　<li><a href="c_08.html">查看实施方案</a></li>
+      <li><a href="c_08.html">查看实施方案</a></li>
       </ul>
   </li>
 
@@ -72,6 +72,37 @@
     </div>
   </div>
   <div class="container-fluid">
+      <div class="panel-body">
+        <div class="well">
+          <div class="row">
+            <div class="col-sm-4">
+              <div class="form-group">
+                <label class="control-label" for="input-name">产品</label>
+                <input type="text"  placeholder="筛选名称" name="filterGoodsName"  id="filterGoodsName" value="" class="form-control" ></input>
+              </div>
+              <div class="form-group">
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="form-group">
+               <label class="control-label" for="input-model">项目时间</label>
+                <input type="text"  placeholder="项目时间" name="filterGoodsName"  id="filterGoodsName" value="" class="form-control" ></input>
+              </div>
+              <div class="form-group">
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="form-group">
+                <label class="control-label" for="input-status">渠道</label>
+                <input type="text"  placeholder="渠道" name="filterGoodsName"  id="filterGoodsName" value="" class="form-control" ></input>
+              </div>
+                 <h:commandLink  action="#{goodsBean.filterGoods}"  class="btn btn-primary pull-right" onclick="console.log('333');if ($('input[name=\'pform:filterCateName\']').val() == '') {console.log('2222');$('input[name=\'pform:filterCateId\']').val('0');}" ><i class="fa fa-search"></i>过滤
+                 </h:commandLink>
+              
+            </div>
+        </div>
+      </div>
+     </div>
     <div class="panel panel-default">
       <div class="panel-heading">
         <h3 class="panel-title"><i class="fa fa-pencil"></i><!-- textss --></h3>
