@@ -1,0 +1,389 @@
+<html>
+        <head>
+        <base href="" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="keywords" content="" />
+        <meta name="viewport"
+                content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
+        <script type="text/javascript"
+                src="view/javascript/jquery/jquery-2.1.1.min.js"></script>
+        <script type="text/javascript"
+                src="view/javascript/bootstrap/js/bootstrap.min.js"></script>
+        <link href="view/stylesheet/bootstrap.css" type="text/css"
+                rel="stylesheet" />
+        <link href="view/javascript/font-awesome/css/font-awesome.min.css"
+                type="text/css" rel="stylesheet" />
+         <link
+                href="view/javascript/jquery/datetimepicker/bootstrap-datetimepicker.min.css"
+                type="text/css" rel="stylesheet" media="screen" />
+        <link type="text/css" href="view/stylesheet/stylesheet.css"
+                rel="stylesheet" media="screen" />
+        <script src="view/javascript/common.js" type="text/javascript"></script>
+        <script type="text/javascript"
+                src="view/javascript/bootstrap-filestyle.js"></script>
+        <script src="view/javascript/highcharts.js"></script>
+        <title>金融管理平台</title>
+        </head>
+<body>
+<div id="container">
+<header id="header" class="navbar navbar-static-top">
+ <div class="navbar-header">
+
+    <a type="button" id="button-menu" class="pull-left"><i class="fa fa-indent fa-lg"></i></a>
+
+    <!-- <a href="" class="navbar-brand"><img src="view/image/logo.png" alt="" title="" /></a>--></div>
+ 
+</header>
+
+<nav id="column-left">
+<div id="profile">
+  <div>   <i class="fa fa-opencart"></i>
+      </div>
+  <div>
+    <h4><h:outputText value="#{userBean.user.name}" /></h4>
+    <small><h:outputText value="#{userBean.user.role.value}" /></small>
+  </div>
+</div>
+
+
+<ul id="menu">
+
+
+  <li id="dashboard"><a href="#"><i class="fa fa-dashboard fa-fw"></i> <span></span></a></li>
+
+  <li id="catalog"><a class="parent"><i class="fa fa-tags fa-fw"></i> <span>公司管理</span></a>
+    <ul>
+      <li><a href="c_02.html">基本信息</a></li>
+      <li><a href="#">融资订单</a></li>
+    </ul>
+  </li>
+  <li id="extension"><a class="parent"><i class="fa fa-puzzle-piece fa-fw"></i> <span>平台管理</span></a>
+    <ul>
+      <li><a href="c_09.html">资质审核</a></li>
+      <li><a href="#">融资订单审核</a></li>
+    </ul>
+  </li>
+
+</ul>
+        </nav>
+
+
+<div id="content">
+<h:form id="gform" >
+  <div class="page-header">
+    <div class="container-fluid">
+      <div class="pull-right">
+	<a href="c_10.html" form="form-product" data-toggle="tooltip" title="确认" class="btn btn-primary"><i class="fa fa-save">确认</i></a>
+         <a href="c_03.html" form="form-product" data-toggle="tooltip" title="返回" class="btn btn-default"><i class="fa fa-return">返回</i></a>
+	</div>
+      <h1>公司资质评估</h1>
+      <ul class="breadcrumb">
+        <li><a href="#"></a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="container-fluid">
+   
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3 class="panel-title"><i class="fa fa-pencil"></i>资质评分</h3>
+      </div>
+      <div class="panel-body">
+      <div class="col-md-6">
+                <table class="table table-bordered table-hover">
+                    <tr>
+                         <td class="text-left col-md-3">资金评分</td>
+                         <td class="text-left col-md-7"><input type="text" class="form-control" placeholder="评分" /> </td>
+                   </tr>
+                    <tr>
+                         <td class="text-left col-md-3">渠道评分</td>
+                         <td class="text-left col-md-7"><input type="text" class="form-control" placeholder="评分" /> </td>
+                   </tr>
+                    <tr>
+                         <td class="text-left col-md-3">负债评分</td>
+                         <td class="text-left col-md-7"><input type="text" class="form-control" placeholder="评分" /> </td>
+                   </tr>
+                    <tr>
+                         <td class="text-left col-md-3">产品评分</td>
+                         <td class="text-left col-md-7"><input type="text" class="form-control" placeholder="评分" /> </td>
+                   </tr>
+                    <tr>
+                         <td class="text-left col-md-3">综合评分</td>
+                         <td class="text-left col-md-7"><input type="text" class="form-control" placeholder="评分" /> </td>
+                   </tr>
+                    <tr>
+                         <td class="text-left col-md-3">客户经理注释</td>
+                         <td class="text-left col-md-7"><input type="text" class="form-control" placeholder="" /> </td>
+                   </tr>
+                    <tr>
+                         <td class="text-left col-md-3">主管部门说明</td>
+                         <td class="text-left col-md-7"><input type="text" class="form-control" placeholder="" /> </td>
+                   </tr>
+                    <tr>
+                         <td class="text-left">综合评估报告</td>
+                         <td class="text-left">   <input type="file" class="filestyle" data-icon="false" />
+                         </td>
+                    </tr>
+               </table>
+       </div>
+      <div class="col-md-6">
+        <div class="panel panel-default">
+      <div class="pull-right">
+	<a href="c_08_submit.html" form="form-product" data-toggle="tooltip" title="确认" class="btn btn-primary"><i class="fa fa-save">确认</i></a>
+         <a href="c_04_submit.html" form="form-product" data-toggle="tooltip" title="返回" class="btn btn-default"><i class="fa fa-return">返回</i></a>
+      </div>
+              <div class="panel-heading"> 
+                   <a href="#"  class="dropdown-toggle" data-toggle="dropdown" >公司评估分析</a>
+              </div>
+              <div class="panel-body">
+                  <div id="sta" style="width: 100%; height: 260px;"></div>
+               </div>
+        </div>
+      
+        </div>
+     </div>
+　　　</div>
+</div>
+  <div class="container-fluid wrapper wrapper-content">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3 class="panel-title"><i class="fa fa-pencil"></i>深圳ＸＸＸ有限公司</h3>
+      </div>
+      <div class="panel-body">
+          <ul class="nav nav-tabs">
+            <li class="active"><a href="#tab-general" data-toggle="tab">基本</a></li>
+            <li><a href="#tab-data" data-toggle="tab">财务及资产信息</a></li>
+           <li><a href="#tab-image" data-toggle="tab">自然人及法人信息</a></li>
+          </ul>
+          <div class="tab-content">
+            <div class="tab-pane active" id="tab-general">
+		
+                <table class="table table-bordered table-hover">
+                    <tr>
+                         <td class="text-left col-md-3">组织机构代码</td>
+                         <td class="text-left col-md-7"><label >XXX-XXXX-XXXXX</label>
+                         </td>
+                   </tr>
+                   <tr>
+                         <td class="text-left">税务登记</td>
+                         <td class="text-left"> <label >XXX-XXXX-XXXXX</label>
+                         </td>
+                   </tr>
+                   
+                    <tr>
+                         <td class="text-left">贷款卡</td>
+                         <td class="text-left"> <label >XXX-XXXX-XXXXX</label>
+                         </td>
+                   </tr>
+                    <tr>
+                         <td class="text-left">营业执照</td>
+                         <td class="text-left">  <a href="data/company_operation_permission.jpg" data-toggle="tooltip" title="查看" class="btn btn-primary"><i class="fa fa-save"></i>查看</a>
+                         </td>
+                   </tr>
+
+                  
+                    <tr>
+                         <td class="text-left">开户许可</td>
+                         <td class="text-left">  <a href="data/company_account_permission.jpg" data-toggle="tooltip" title="查看" class="btn btn-primary"><i class="fa fa-save"></i>查看</a>
+                         </td>
+                   </tr>
+
+
+                  <tr>
+                         <td class="text-left"> 公司章程 </td>
+                         <td class="text-left">   <a href="data/company_policy.jpg" data-toggle="tooltip" title="查看" class="btn btn-primary"><i class="fa fa-save"></i>查看</a>
+                         </td>
+                  </tr>
+
+                  <tr>
+                         <td class="text-left"> 法人征信信息 </td>
+                         <td class="text-left">     <a href="#" data-toggle="tooltip" title="查看" class="btn btn-primary"><i class="fa fa-save"></i>查看</a>
+                         </td>
+                  </tr>
+
+                  <tr>
+                         <td class="text-left"> 实际控制人征信信息 </td>
+                         <td class="text-left">    <a href="#" data-toggle="tooltip" title="查看" class="btn btn-primary"><i class="fa fa-save"></i>查看</a>
+                         </td>
+                  </tr>
+                  <tr>
+                         <td class="text-left"> 公司征信报告 </td>
+                         <td class="text-left">    <a href="#" data-toggle="tooltip" title="查看" class="btn btn-primary"><i class="fa fa-save"></i>查看</a>
+                         </td>
+                  </tr>
+                  <tr>
+                         <td class="text-left"> 公司的违约失信等记录 </td>
+                         <td class="text-left">  <label >未上传</label> 
+                         </td>
+                  </tr>
+                </table>
+		
+            </div>
+            <div class="tab-pane" id="tab-data">
+            
+               <table class="table table-bordered table-hover">
+                   <tbody>
+                    <tr>
+                         <td class="text-left  col-md-3">验资报告</td>
+                         <td class="text-left  col-md-7">   <a href="data/cash_qualification_report.jpg" data-toggle="tooltip" title="查看" class="btn btn-primary"><i class="fa fa-save"></i>查看</a>
+                         </td>
+                   </tr>
+                    <tr>
+                         <td class="text-left">公司近3年的（经审计的）三份财务报表</td>
+                         <td class="text-left">    <a href="data/2016_finaical_report.xlsx" data-toggle="tooltip" title="查看" class="btn btn-primary"><i class="fa fa-save"></i>查看</a>
+                         </td>
+                   </tr>
+                    <tr>
+                         <td class="text-left">近6个月的银行流水</td>
+                         <td class="text-left">    <a href="data/2016_finaical_detail_report.xlsx" data-toggle="tooltip" title="查看" class="btn btn-primary"><i class="fa fa-save"></i>查看</a>
+                         </td>
+                   </tr>
+                    <tr>
+                         <td class="text-left">房产证</td>
+                         <td class="text-left">    <a href="#" data-toggle="tooltip" title="查看" class="btn btn-primary"><i class="fa fa-save"></i>查看</a>
+                         </td>
+                   </tr>
+                    <tr>
+                         <td class="text-left">银行存单</td>
+                         <td class="text-left">   <a href="#" data-toggle="tooltip" title="查看" class="btn btn-primary"><i class="fa fa-save"></i>查看</a>
+                         </td>
+                   </tr>
+                    <tr>
+                         <td class="text-left">公司账户清单</td>
+                         <td class="text-left">   <a href="data/final_summary_report.xlsx" data-toggle="tooltip" title="查看" class="btn btn-primary"><i class="fa fa-save"></i>查看</a>
+                         </td>
+                   </tr>
+                    <tr>
+                         <td class="text-left">车辆及设备发票</td>
+                         <td class="text-left">   <a href="#" data-toggle="tooltip" title="查看" class="btn btn-primary"><i class="fa fa-save"></i>查看</a>
+                         </td>
+                   </tr>
+                    <tr>
+                         <td class="text-left">近三年纳税申报表</td>
+                         <td class="text-left">    <a href="data/tax_report.xlsx" data-toggle="tooltip" title="查看" class="btn btn-primary"><i class="fa fa-save"></i>查看</a>
+                         </td>
+                   </tr>
+                    <tr>
+                         <td class="text-left">有价证券</td>
+                         <td class="text-left">    <a href="#" data-toggle="tooltip" title="查看" class="btn btn-primary"><i class="fa fa-save"></i>查看</a>
+                         </td>
+                   </tr>
+                    <tr>
+                         <td class="text-left">所有借款合同及对外担保内容</td>
+                         <td class="text-left">    <a href="#" data-toggle="tooltip" title="查看" class="btn btn-primary"><i class="fa fa-save"></i>查看</a>
+                         </td>
+                   </tr>
+                    <tr>
+                         <td class="text-left">其他可抵质押物清单</td>
+                         <td class="text-left">   <a href="#" data-toggle="tooltip" title="查看" class="btn btn-primary"><i class="fa fa-save"></i>查看</a>
+                         </td>
+                   </tr>
+		</tbody>
+		</table>
+              
+            </div>
+            
+            <div class="tab-pane" id="tab-image">
+            
+                <table id="images" class="table table-bordered table-hover">
+                  <tbody>
+                    <tr>
+                         <td class="text-left  col-md-3">配偶身份证</td>
+                         <td class="text-left  col-md-7">     <a href="#" data-toggle="tooltip" title="查看" class="btn btn-primary"><i class="fa fa-save"></i>查看</a>
+                         </td>
+                  </tr>
+                    <tr>
+                         <td class="text-left">婚姻状况</td>
+                         <td class="text-left">     <a href="#" data-toggle="tooltip" title="查看" class="btn btn-primary"><i class="fa fa-save"></i>查看</a>
+                         </td>
+                  </tr>
+                    <tr>
+                         <td class="text-left">户口本</td>
+                         <td class="text-left">   <a href="#" data-toggle="tooltip" title="查看" class="btn btn-primary"><i class="fa fa-save"></i>查看</a>
+                         </td>
+                  </tr>
+                    <tr>
+                         <td class="text-left">资产资料</td>
+                         <td class="text-left">     <a href="#" data-toggle="tooltip" title="查看" class="btn btn-primary"><i class="fa fa-save"></i>查看</a>
+                         </td>
+                  </tr>
+
+		</tbody>
+                </table>
+              
+            </div>
+            
+            
+          </div>
+      </div>
+    </div>
+  </div>
+  </h:form>
+  
+
+
+</div>
+
+<footer id="footer"><br /></footer></div>
+<script type="text/javascript">
+	function showCost(data, date) {
+	    var cost = $('#sta').highcharts({
+  chart: {
+        plotBackgroundColor: null,
+        plotBorderWidth: null,
+        plotShadow: false,
+        type: 'pie'
+    },
+    title: {
+        text: '订单综合情况评估'
+    },
+    tooltip: {
+        pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+    },
+    plotOptions: {
+        pie: {
+            allowPointSelect: true,
+            cursor: 'pointer',
+            dataLabels: {
+                enabled: true,
+                format: '<b>{point.name}</b>: {point.percentage:.1f} %',
+                style: {
+                    color: (Highcharts.theme && Highcharts.theme.contrastTextColor) || 'black'
+                }
+            }
+        }
+    },
+    series: [{
+        name: '权重',
+        colorByPoint: true,
+        data: [{
+            name: '渠道',
+            y: 56.33
+        }, {
+            name: '市场占有率',
+            y: 24.03,
+            sliced: true,
+            selected: true
+        }, {
+            name: '产品销售',
+            y: 10.38
+        }, {
+            name: '回款状况',
+            y: 4.77
+        }, {
+            name: '订单情况',
+            y: 0.91
+        }, ]
+    　　}]
+	   });
+	};
+</script>
+<script type="text/javascript">
+  
+  $(function () {
+    showCost(null, '税务状态');
+  });
+    
+</script>
+</div>
+</body></html>
