@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <title>创建订单</title>
+
+    <link href="css/bootstrap.min14ed.css?v=3.3.6" rel="stylesheet">
+    <link href="css/font-awesome.min93e3.css?v=4.4.0" rel="stylesheet">
+    <link href="css/plugins/iCheck/custom.css" rel="stylesheet">
+    <link href="css/animate.min.css" rel="stylesheet">
+    <link href="css/style.min862f.css?v=4.1.0" rel="stylesheet">
+    <style type="text/css">
+    .top-navigation .navbar-right {
+        padding-right: 20%;
+    }
+    .navbar-header{width: auto;}
+    .navbar-brand {
+        width: 82px;
+        height: 35px;
+        margin: 10px 0 0;
+    }
+    .top-navigation .navbar-brand {
+        padding: 8px 15px;
+    }
+    .btn-warning2 {
+        background-color: #ff7802;
+        border-color: #ff7802;
+        color: #FFF;
+    }
+    .checkbox-inline, .radio-inline {
+        padding-left: 0;
+    }
+    .form-control:focus, .single-line:focus {
+        border-color: #ff7802!important;
+    }
+    .navimg {
+        margin: 0;
+        vertical-align: text-bottom;
+    }
+    .navimgtext {
+        vertical-align: middle;
+    }
+    .navimgtextactive {
+        color: #517126;
+    }
+    .hr-line {
+        border-top: 1px solid #e7eaec;
+        color: #fff;
+        background-color: #fff;
+        height: 1px;
+        margin: 20px 0;
+    }
+    .form-horizontal .control-label {
+        text-align: left;
+    }
+    </style>
+</head>
+
+<body class="gray-bg top-navigation">
+
+    <div id="wrapper">
+        <div id="page-wrapper" style="background-color: #f8f8f8">
+            <div class="row border-bottom" style="background-color:#f3f3f3;">
+                <nav class="navbar navbar-static-top" role="navigation">
+                    <div class="navbar-header col-md-offset-1">
+                        <a href="#" class="navbar-brand white-bg" style="background-color: #d8d8d8;">LOGO</a>
+                    </div>
+                    <ul class="nav navbar-top-links navbar-right">
+                    <li class="dropdown">
+                        <a aria-expanded="false" role="button" href="#" class="dropdown-toggle" data-toggle="dropdown"> 公司管理 <span class="caret"></span></a>
+                        <ul role="menu" class="dropdown-menu">
+                                <li><a href="#">查看公司信息</a>
+                                </li>
+                                <li><a href="#">查看订单信息</a>
+                                </li>
+                                <li><a href="#">融资订单申请</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a aria-expanded="false" role="button" href="#" class="dropdown-toggle" data-toggle="dropdown"> 平台管理 <span class="caret"></span></a>
+                            <ul role="menu" class="dropdown-menu">
+                                <li><a href="#">查看公司信息</a>
+                                </li>
+                                <li><a href="#">查看订单信息</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a aria-expanded="false" role="button" href="#" class="dropdown-toggle" data-toggle="dropdown"> 资方管理 <span class="caret"></span></a>
+                            <ul role="menu" class="dropdown-menu">
+                                <li><a href="#">查看公司信息</a>
+                                </li>
+                                <li><a href="#">查看订单信息</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="wrapper">
+                <div class="container">
+                    <div class="row">
+                        <h2 style="font-weight: bolder;">创建订单</h2>
+                    </div>
+                    <div style="height: 30px;"></div>
+                    <div class="row">
+                        <div class="col-ld-12">
+                            <form method="get" class="form-horizontal">
+                                <div class="ibox float-e-margins">
+                                    <div class="ibox-content">
+                                        <div class="form-group">
+                                            <h3 class="col-sm-2 control-label">产品信息</h3>
+                                        </div>
+                                        <div class="hr-line"></div>
+                                        <table id="images" class="table table-bordered table-hover">
+                                            <thead>
+                                                <tr>
+                                                    <th class="text-center">产品名称</th>
+                                                    <th class="text-center">条形码</th>
+                                                    <th class="text-center">规格</th>
+                                                    <th class="text-center">产地</th>
+                                                    <th class="text-center">单价</th>
+                                                    <th class="text-center">单位</th>
+                                                    <th class="text-center">贸易术语</th>
+                                                    <th class="text-center">数量</th>
+                                                    <th class="text-center">金额</th>
+                                                    <th class="text-center">操作</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr id="image-row">
+                                                  <td class="text-left"><input type="text" name="product_image" value="" placeholder="产品名称" class="form-control" /></td>
+                                                  <td class="text-left"><input type="text" name="product_image" value="" placeholder="条形码" class="form-control" /></td>
+                                                  <td class="text-left"><input type="text" name="product_image" value="" placeholder="规格" class="form-control" /></td>
+                                                  <td class="text-left"><input type="text" name="product_image" value="" placeholder="产地" class="form-control" /></td>
+                                                  <td class="text-left"><input type="text" name="product_image" value="" placeholder="单价" class="form-control" /></td>
+                                                  <td class="text-left"><input type="text" name="product_image" value="" placeholder="单位" class="form-control" /></td>
+                                                  <td class="text-left"><input type="text" name="product_image" value="" placeholder="贸易术语" class="form-control" /></td>
+                                                  <td class="text-left"><input type="text" name="product_image" value="" placeholder="数量" class="form-control" /></td>
+                                                  <td class="text-right"><input type="text" name="product_image" value="" placeholder="金额" class="form-control" /></td>
+                                                  <td class="text-left"><button type="button" onclick="$('#image-row').remove();" data-toggle="tooltip" title="echo $button_remove" class="btn btn-warning2">删除</button></td>
+                                                </tr>
+                                                <tr>
+                                                  <td class="text-left"><input type="text" name="product_image" value="" placeholder="产品名称" class="form-control" /></td>
+                                                  <td class="text-left"><input type="text" name="product_image" value="" placeholder="条形码" class="form-control" /></td>
+                                                  <td class="text-left"><input type="text" name="product_image" value="" placeholder="规格" class="form-control" /></td>
+                                                  <td class="text-left"><input type="text" name="product_image" value="" placeholder="产地" class="form-control" /></td>
+                                                  <td class="text-left"><input type="text" name="product_image" value="" placeholder="单价" class="form-control" /></td>
+                                                  <td class="text-left"><input type="text" name="product_image" value="" placeholder="单位" class="form-control" /></td>
+                                                  <td class="text-left"><input type="text" name="product_image" value="" placeholder="贸易术语" class="form-control" /></td>
+                                                  <td class="text-left"><input type="text" name="product_image" value="" placeholder="数量" class="form-control" /></td>
+                                                  <td class="text-right"><input type="text" name="product_image" value="" placeholder="金额" class="form-control" /></td>
+                                                  <td class="text-left"><button type="button" onclick="$('#image-row').remove();" data-toggle="tooltip" title="echo $button_remove" class="btn btn-warning2">删除</button></td>
+                                                </tr>
+                                                <tr>
+                                                  <td class="text-left"><input type="text" name="product_image" value="" placeholder="产品名称" class="form-control" /></td>
+                                                  <td class="text-left"><input type="text" name="product_image" value="" placeholder="条形码" class="form-control" /></td>
+                                                  <td class="text-left"><input type="text" name="product_image" value="" placeholder="规格" class="form-control" /></td>
+                                                  <td class="text-left"><input type="text" name="product_image" value="" placeholder="产地" class="form-control" /></td>
+                                                  <td class="text-left"><input type="text" name="product_image" value="" placeholder="单价" class="form-control" /></td>
+                                                  <td class="text-left"><input type="text" name="product_image" value="" placeholder="单位" class="form-control" /></td>
+                                                  <td class="text-left"><input type="text" name="product_image" value="" placeholder="贸易术语" class="form-control" /></td>
+                                                  <td class="text-left"><input type="text" name="product_image" value="" placeholder="数量" class="form-control" /></td>
+                                                  <td class="text-right"><input type="text" name="product_image" value="" placeholder="金额" class="form-control" /></td>
+                                                  <td class="text-left"><button type="button" onclick="$('#image-row').remove();" data-toggle="tooltip" title="echo $button_remove" class="btn btn-warning2">删除</button></td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <div class="text-left"><button type="button" onclick="addImage();" data-toggle="tooltip" title="添加产品" class="btn btn-warning2"><i class="fa fa-plus"></i>&nbsp;添加</button></div>
+                                    </div>
+                                </div>
+                                <div class="ibox float-e-margins">
+                                    <div class="ibox-content">
+                                        <div class="form-group">
+                                            <h3 class="col-sm-2 control-label">订单信息</h3>
+                                        </div>
+                                        <div class="hr-line"></div>
+                                        <table class="table table-bordered table-hover">
+                                            <thead>
+                                                <tr>
+                                                    <th class="text-center" colspan="2">甲方</th>
+                                                    <th class="text-center" colspan="2">乙方</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                  <td class="text-center">邮寄地址</td>
+                                                  <td class="text-center col-md-4"><input type="text" class="form-control"></td>
+                                                  <td class="text-center">邮寄地址</td>
+                                                  <td class="text-center col-md-4"><input type="text" class="form-control"></td>
+                                                </tr>
+                                                <tr>
+                                                  <td class="text-center">经办人</td>
+                                                  <td class="text-center"><input type="text" class="form-control"></td>
+                                                  <td class="text-center">经办人</td>
+                                                  <td class="text-center"><input type="text" class="form-control"></td>
+                                                </tr>
+                                                <tr>
+                                                  <td class="text-center">电话</td>
+                                                  <td class="text-center"><input type="text" class="form-control"></td>
+                                                  <td class="text-center">电话</td>
+                                                  <td class="text-center"><input type="text" class="form-control"></td>
+                                                </tr>
+                                                <tr>
+                                                  <td class="text-center">传真</td>
+                                                  <td class="text-center"><input type="text" class="form-control"></td>
+                                                  <td class="text-center">传真</td>
+                                                  <td class="text-center"><input type="text" class="form-control"></td>
+                                                </tr>
+                                                <tr>
+                                                  <td class="text-center">邮箱</td>
+                                                  <td class="text-center"><input type="text" class="form-control"></td>
+                                                  <td class="text-center">邮箱</td>
+                                                  <td class="text-center"><input type="text" class="form-control"></td>
+                                                </tr>
+                                                <tr>
+                                                  <td class="text-center">签订时间</td>
+                                                  <td class="text-center"><input type="text" class="form-control"></td>
+                                                  <td class="text-center">签订时间</td>
+                                                  <td class="text-center"><input type="text" class="form-control"></td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+
+                                    </div>
+                                </div>
+                                <div class="row text-right" style="margin-right: 20px;">
+                                    <button class="btn btn-warning2 " onclick="location.href='reg_03.html'" type="button">&nbsp;确认并提交</button>
+                                </div>
+                                <br>
+                                <br>
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/jquery.min.js?v=2.1.4"></script>
+    <script src="js/bootstrap.min.js?v=3.3.6"></script>
+    <script src="js/content.min.js?v=1.0.0"></script>
+    <script src="js/plugins/chartJs/Chart.min.js"></script>
+    <script src="js/plugins/peity/jquery.peity.min.js"></script>
+
+    <script src="js/plugins/iCheck/icheck.min.js"></script>
+    <script>
+        $(document).ready(function(){$(".i-checks").iCheck({checkboxClass:"icheckbox_square-green",radioClass:"iradio_square-green",})});
+
+    var image_row = 0;
+
+    function addImage() {
+        html  = '<tr id="image-row' + image_row + '">';
+            html  += ' <td class="text-left"><input type="text" name="product_image" value="" placeholder="产品名称" class="form-control" /></td>';
+            html  += ' <td class="text-left"><input type="text" name="product_image" value="" placeholder="条形码" class="form-control" /></td>';
+            html  += ' <td class="text-left"><input type="text" name="product_image" value="" placeholder="规格" class="form-control" /></td>';
+            html  += ' <td class="text-left"><input type="text" name="product_image" value="" placeholder="产地" class="form-control" /></td>';
+            html  += ' <td class="text-left"><input type="text" name="product_image" value="" placeholder="单价" class="form-control" /></td>';
+            html  += ' <td class="text-left"><input type="text" name="product_image" value="" placeholder="单位" class="form-control" /></td>';
+            html  += ' <td class="text-left"><input type="text" name="product_image" value="" placeholder="贸易术语" class="form-control" /></td>';
+            html  += ' <td class="text-left"><input type="text" name="product_image" value="" placeholder="数量" class="form-control" /></td>';
+            html  += ' <td class="text-right"><input type="text" name="product_image" value="" placeholder="金额" class="form-control" /></td>';
+        html += '  <td class="text-left"><button type="button" onclick="$(\'#image-row' + image_row  + '\').remove();" data-toggle="tooltip" title="" class="btn btn-warning2">删除</button></td>';
+        html += '</tr>';
+
+        $('#images tbody').append(html);
+
+        image_row++;
+    }
+</script>
+
+</body>
+</html>

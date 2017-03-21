@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <title>金融管理系统 UI3</title>
+
+    <link href="css/bootstrap.min14ed.css?v=3.3.6" rel="stylesheet">
+    <link href="css/font-awesome.min93e3.css?v=4.4.0" rel="stylesheet">
+    <link href="css/plugins/iCheck/custom.css" rel="stylesheet">
+    <link href="css/animate.min.css" rel="stylesheet">
+    <link href="css/style.min862f.css?v=4.1.0" rel="stylesheet">
+    <style type="text/css">
+    .top-navigation .navbar-right {
+        padding-right: 8.333%;
+    }
+    .navbar-header{width: auto;}
+    .navbar-brand {
+        width: 82px;
+        height: 35px;
+        margin: 10px 0 0;
+    }
+    .top-navigation .navbar-brand {
+        padding: 8px 15px;
+    }
+    .btn-warning2 {
+        background-color: #ff7802;
+        border-color: #ff7802;
+        color: #FFF;
+    }
+    .checkbox-inline, .radio-inline {
+        padding-left: 0;
+    }
+    .form-control:focus, .single-line:focus {
+        border-color: #ff7802!important;
+    }
+    .navimg {
+        margin: 0;
+        vertical-align: text-bottom;
+    }
+    .navimgtext {
+        vertical-align: middle;
+    }
+    .navimgtextactive {
+        color: #517126;
+    }
+    
+    </style>
+</head>
+
+<body class="gray-bg top-navigation">
+
+    <div id="wrapper">
+        <div id="page-wrapper" style="background-color: #f8f8f8">
+            <div class="row border-bottom" style="background-color:#f3f3f3;">
+                <nav class="navbar navbar-static-top" role="navigation">
+                    <div class="navbar-header col-md-offset-1">
+                        <a href="#" class="navbar-brand white-bg" style="background-color: #d8d8d8;">LOGO</a>
+                    </div>
+                    <ul class="nav navbar-top-links navbar-right">
+                        <li>
+                            <a href="#login.html"> 登录&nbsp;&nbsp;|&nbsp;&nbsp;注册</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="wrapper">
+                <div class="container">
+                    <div class="row">
+                        <h2 style="font-weight: bolder;">注册</h2>
+                    </div>
+                    <div class="row" style="margin: 20px 0 50px -30px;">
+                        <div class="col-md-3">
+                            <img class="navimg" src="img/1_09.jpg" border="0"> <span class="navimgtext navimgtextactive">开始注册</span>
+                        </div>
+                        <div class="col-md-3">
+                            <img class="navimg" src="img/1_11.jpg" border="0"> <span class="navimgtext">详细信息</span>
+                        </div>
+                        <div class="col-md-3">
+                            <img class="navimg" src="img/1_11.jpg" border="0"> <span class="navimgtext">注册成功</span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-ld-12">
+                            <form method="get" class="form-horizontal" action="reg_2.html">
+                                <div class="ibox float-e-margins">
+                                    <div class="ibox-content">
+                                        <div class="form-group">
+                                            <label class="col-sm-1 control-label">手机号码</label>
+                                            <div class="col-md-4">
+                                                <input type="text" name="" class="form-control" placeholder="请输入手机号">
+                                            </div>
+                                            <div class="col-md-2">
+                                                <button class="btn btn-warning2" type="button">&nbsp;验证</button>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="col-sm-1 control-label">验证码</label>
+                                            <div class="col-sm-4">
+                                                <input type="text" name="" class="form-control" placeholder="请输入验证码">
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="col-sm-1 control-label">邮箱</label>
+                                            <div class="col-sm-4">
+                                                <input type="text" name="" class="form-control" placeholder="请输入邮箱">
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="col-sm-1 control-label">密码</label>
+                                            <div class="col-sm-4">
+                                                <input type="password" class="form-control" name="password" placeholder="8-12位字母数字和符号">
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="col-sm-1 control-label">确认密码</label>
+                                            <div class="col-sm-4">
+                                                <input type="password" class="form-control" name="password" placeholder="再次输入密码">
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="col-sm-1 control-label"></label>
+                                            <div class="col-sm-4">
+                                                <label class="checkbox-inline"><input type="checkbox" value="option1" class="i-checks" id="inlineCheckbox1">同意&lt;&lt;XXX协议&gt;&gt;</label>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="col-sm-1 control-label"></label>
+                                            <div class="col-sm-4">
+                                                <button class="btn btn-warning2" onclick="location.href='reg_02.html'" type="button">&nbsp;下一步</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/jquery.min.js?v=2.1.4"></script>
+    <script src="js/bootstrap.min.js?v=3.3.6"></script>
+    <script src="js/content.min.js?v=1.0.0"></script>
+    <script src="js/plugins/chartJs/Chart.min.js"></script>
+    <script src="js/plugins/peity/jquery.peity.min.js"></script>
+
+    <script src="js/plugins/iCheck/icheck.min.js"></script>
+    <script>
+        $(document).ready(function(){$(".i-checks").iCheck({checkboxClass:"icheckbox_square-green",radioClass:"iradio_square-green",})});
+    </script>
+</body>
+</html>
