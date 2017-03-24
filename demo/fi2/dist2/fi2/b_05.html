@@ -33,34 +33,48 @@
                       <div class="row">
                           <div class="col-sm-5">
                               <table class="table table-bordered table-hover">
-                                <tr>
-                                     <td class="text-left col-md-3">资金评分</td>
+                                
+                               <tr>
+                                     <td class="text-left col-md-3">产品类别评分</td>
                                      <td class="text-left col-md-7"><input type="text" class="form-control" placeholder="评分" /> </td>
                                </tr>
                                 <tr>
+                                     <td class="text-left col-md-3">产品综合评分</td>
+                                     <td class="text-left col-md-7"><input type="text" class="form-control" placeholder="评分" /> </td>
+                               </tr>
+                               <tr>
+                                     <td class="text-left col-md-3">历史订单评分</td>
+                                     <td class="text-left col-md-7"><input type="text" class="form-control" placeholder="评分" /> </td>
+                               </tr>
+                               <tr>
                                      <td class="text-left col-md-3">渠道评分</td>
                                      <td class="text-left col-md-7"><input type="text" class="form-control" placeholder="评分" /> </td>
                                </tr>
-                                <tr>
-                                     <td class="text-left col-md-3">负债评分</td>
+                               <tr>
+                                     <td class="text-left col-md-3">公开信息评分</td>
                                      <td class="text-left col-md-7"><input type="text" class="form-control" placeholder="评分" /> </td>
                                </tr>
-                                <tr>
-                                     <td class="text-left col-md-3">产品评分</td>
+                               <tr>
+                                     <td class="text-left col-md-3">自采信息评分－行业信息</td>
                                      <td class="text-left col-md-7"><input type="text" class="form-control" placeholder="评分" /> </td>
+                               </tr>
+                               <tr>
+                                     <td class="text-left col-md-3">自采信息评分－品牌信息</td>
+                                     <td class="text-left col-md-7"><input type="text" class="form-control" placeholder="评分" /> </td>
+                               </tr>
+                               <tr>
+                                     <td class="text-left col-md-3">自采信息评分－供应商信息</td>
+                                     <td class="text-left col-md-7"><input type="text" class="form-control" placeholder="评分" /> </td>
+                               </tr>
+                               <tr>
+                                     <td class="text-left col-md-3">自采信息评分－产品信息</td>
+                                     <td class="text-left col-md-7"><input type="text" class="form-control" placeholder="历评分" /> </td>
                                </tr>
                                 <tr>
                                      <td class="text-left col-md-3">综合评分</td>
                                      <td class="text-left col-md-7"><input type="text" class="form-control" placeholder="评分" /> </td>
                                </tr>
-                                <tr>
-                                     <td class="text-left col-md-3">客户经理注释</td>
-                                     <td class="text-left col-md-7"><input type="text" class="form-control" placeholder="" /> </td>
-                               </tr>
-                                <tr>
-                                     <td class="text-left col-md-3">主管部门说明</td>
-                                     <td class="text-left col-md-7"><input type="text" class="form-control" placeholder="" /> </td>
-                               </tr>
+                               
                                 <tr>
                                      <td class="text-left">综合评估报告</td>
                                      <td class="text-left">
@@ -305,18 +319,18 @@
           name: '权重',
           colorByPoint: true,
           data: [{
-              name: '渠道',
+              name: '自采信息',
               y: 56.33
           }, {
-              name: '市场占有率',
+              name: '产品分类',
               y: 24.03,
               sliced: true,
               selected: true
           }, {
-              name: '产品销售',
+              name: '产品订单',
               y: 10.38
           }, {
-              name: '回款状况',
+              name: '历史订单',
               y: 4.77
           }, {
               name: '订单情况',
