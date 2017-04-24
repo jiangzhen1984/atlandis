@@ -6967,4 +6967,11 @@ body.skin-3 {
     cursor: inherit;
     display: block;
 }
-        
+
+/** begin reduce space of table,form,panel */
+.table-bordered>thead>tr>th, .table-bordered>tbody>tr>th, .table-bordered>tfoot>tr>th, .table-bordered>thead>tr>td, .table-bordered>tbody>tr>td, .table-bordered>tfoot>tr>td{
+	padding: 3px;
+}
+.hr-line-dashed { margin: 10px 0; }
+.ibox-title {padding: 10px 15px 7px;min-height: 38px;}
+.form-group {margin-bottom: 0px;}
